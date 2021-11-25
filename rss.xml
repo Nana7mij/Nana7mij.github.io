@@ -7,27 +7,131 @@
         <language>zh-CN</language>
         <pubDate>Tue, 23 Nov 2021 13:15:21 +0800</pubDate>
         <lastBuildDate>Tue, 23 Nov 2021 13:15:21 +0800</lastBuildDate>
+        <category>博客创建</category>
         <item>
             <guid isPermalink="true">http://example.com/2021/11/23/%E5%BF%83%E5%BE%97/</guid>
             <title>博客创建心得(适合零前端基础食用)ps：书写中……</title>
             <link>http://example.com/2021/11/23/%E5%BF%83%E5%BE%97/</link>
+            <category>博客创建</category>
             <pubDate>Tue, 23 Nov 2021 13:15:21 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;font-color39c5bb创建时间-20211121-博客初次创建font&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#font-color39c5bb创建时间-20211121-博客初次创建font&#34;&gt;#&lt;/a&gt; &lt;font color=#39C5BB&gt;创建时间: 2021/11/21 博客初次创建&lt;/font&gt;&lt;/h1&gt;
 &lt;p&gt;历经两个通宵，从安装 git 到安装 shoka 主题，Linux 纯小白 + 前端零基础，也能用 hexo 的博客框架做出一个个人博客的不完全体.&lt;br /&gt;
  下面是我的个人总结的经验：只用于小白玩家参考，大佬轻喷 o (╥﹏╥) o.&lt;/p&gt;
-&lt;h1 id=&#34;font-color39c5bb服务器的购买与设置font&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#font-color39c5bb服务器的购买与设置font&#34;&gt;#&lt;/a&gt; &lt;font color=#39C5BB&gt;服务器的购买与设置&lt;/font&gt;&lt;/h1&gt;
 &lt;h2 id=&#34;font-colorffc0cb指导前辈-沃若font&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#font-colorffc0cb指导前辈-沃若font&#34;&gt;#&lt;/a&gt; &lt;font color=#FFC0CB&gt;指导前辈：沃若&lt;/font&gt;&lt;/h2&gt;
+&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;沃若&#34; style=&#34;--block-color:#6A5ACD;&#34;&gt;&lt;span class=&#34;exturl image&#34; data-url=&#34;aHR0cHM6Ly93d3cud29ydW8ub25saW5lLw==&#34; data-background-image=&#34;https://www.woruo.online/images/avatar.png&#34;&gt;&lt;/span&gt;
+          &lt;div class=&#34;info&#34;&gt;
+          &lt;span class=&#34;exturl title&#34; data-url=&#34;aHR0cHM6Ly93d3cud29ydW8ub25saW5lLw==&#34;&gt;桑之未落，其叶沃若&lt;/span&gt;
+          &lt;p class=&#34;desc&#34;&gt;最前列で手をふるよ都内一等星の笑颜に&lt;/p&gt;
+          &lt;/div&gt;&lt;/div&gt;&lt;/div&gt; 
+&lt;h1 id=&#34;font-color39c5bb服务器的购买与设置font&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#font-color39c5bb服务器的购买与设置font&#34;&gt;#&lt;/a&gt; &lt;font color=#39C5BB&gt;服务器的购买与设置&lt;/font&gt;&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;服务器目前我已知的有三家可以选择：&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;阿里云&lt;/li&gt;
+&lt;li&gt;腾讯云&lt;/li&gt;
+&lt;li&gt;华为云&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;阿里云&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;因为博主用的是&lt;mark&gt;阿里云&lt;/mark&gt;的服务器，所以下面的步骤以&lt;mark&gt;阿里云&lt;/mark&gt;服务器来做演示，但服务器操作基本相同，其他平台也可参考。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;服务器种类选择&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;ins&gt;轻量应用服务器&lt;/ins&gt;&lt;br /&gt;
+这里因为服务器只用于搭建博客，所以选择轻量应用服务器已经十分够用了。&lt;br /&gt;
+因为博主是新人用户，并且在双十一活动期间购买的价格还是很实惠的，还没购买服务器的小伙伴也可以看看这个服务器。&lt;br /&gt;
+&lt;img data-src=&#34;https://s3.bmp.ovh/imgs/2021/11/3a53af7a099bea3f.jpg&#34; alt=&#34;&#34; title=&#34;新人专区&#34; /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;系统选择&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;服务器购买时可以选择：&lt;/li&gt;
+&lt;li&gt;应用镜像&lt;/li&gt;
+&lt;li&gt;系统镜像&lt;/li&gt;
+&lt;li&gt;自定义镜像&lt;br /&gt;
+这里我们选择&lt;ins&gt;系统镜像&lt;/ins&gt;中的&lt;mark&gt; Ubuntu20.04&lt;/mark&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;font-color39c5bb部署-hexo-静态博客框架font&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#font-color39c5bb部署-hexo-静态博客框架font&#34;&gt;#&lt;/a&gt; &lt;font color=#39C5BB&gt;部署 Hexo 静态博客框架&lt;/font&gt;&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;在服务器控制台 (控制台在阿里云主页面右上角：&lt;ins class=&#34;primary&#34;&gt;我的阿里云 —— 产品 —— 轻量应用服务器：控制台处进入&lt;/ins&gt;) 右上角区域点击&lt;mark&gt;远程连接&lt;/mark&gt;对服务器进行操作&lt;/li&gt;
+&lt;li&gt;在输入指令之前，请先在服务器控制台左侧：&lt;ins class=&#34;dot warning&#34;&gt;快照 —— 创建系统盘快照对服务器进行&lt;mark&gt;备份&lt;/mark&gt;&lt;/ins&gt;&lt;/li&gt;
+&lt;li&gt;按照顺序依次输入并等待即可 (&lt;ins class=&#34;primary&#34;&gt;第 6 行代码执行之后命令框不会有任何反应，是&lt;mark&gt;正常现象&lt;/mark&gt;，继续向下输入即可&lt;/ins&gt;)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;span&gt;命令行提示符&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td data-command=&#34;# 更新软件源 $&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;sudo&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;apt&lt;/span&gt; update                                                      &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td data-command=&#34;# 安装 npm $&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;sudo&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;apt&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;install&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;npm&lt;/span&gt; -y                                              &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td data-command=&#34;# 添加 nodejs 源 $&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;curl&lt;/span&gt; -fsSL https://deb.nodesource.com/setup_lts.x &lt;span class=&#34;token operator&#34;&gt;|&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;sudo&lt;/span&gt; -E &lt;span class=&#34;token function&#34;&gt;bash&lt;/span&gt; -   &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td data-command=&#34;# 安装 nodejs $&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;sudo&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;apt&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;install&lt;/span&gt; nodejs -y                                           &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td data-command=&#34;# 清理 npm 自带的 nodejs $&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;sudo&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;apt&lt;/span&gt; autoremove -y                                               &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td data-command=&#34;# 设置 npm 国内镜像 $&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;npm&lt;/span&gt; config &lt;span class=&#34;token builtin class-name&#34;&gt;set&lt;/span&gt; registry https://registry.npm.taobao.org              &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td data-command=&#34;# 全局安装 hexo-cli $&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;sudo&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;npm&lt;/span&gt; i hexo-cli -g                                               &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td data-command=&#34;# 初始化站点文件夹 $&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;hexo init blog                                                       &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td data-command=&#34;# 进入站点文件夹 $&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token builtin class-name&#34;&gt;cd&lt;/span&gt; blog                                                              &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td data-command=&#34;# 安装模块 $&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;npm&lt;/span&gt; i                                                                &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td data-command=&#34;# 开始监听 HTTP 端口 $&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;hexo server&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;快捷键&lt;span class=&#34;kbd red&#34;&gt; Ctrl&lt;/span&gt; + &lt;span class=&#34;kbd red&#34;&gt;C&lt;/span&gt; 中断 hexo server&lt;/li&gt;
+&lt;li&gt;在服务器控制台左侧：&lt;ins class=&#34;primary&#34;&gt;防火墙 —— 添加规则 ——&lt;mark&gt; 端口范围&lt;/mark&gt;中填写&lt;mark&gt; 4000&lt;/mark&gt; (其他选项不需要动)—— 备注随意&lt;/ins&gt;&lt;/li&gt;
+&lt;li&gt;在服务器控制台左侧：&lt;ins class=&#34;primary&#34;&gt;远程连接 ——&lt;mark&gt; 设置密码&lt;/mark&gt;中设置服务器密码 ps：密码必须记住，后面使用&lt;/ins&gt;&lt;ins class=&#34;wavy&#34;&gt; Vscode-SSH&lt;/ins&gt;&lt;ins class=&#34;primary&#34;&gt; 远程操控需要用到&lt;/ins&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;font-color39c5bbvscode-ssh远程连接服务器font&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#font-color39c5bbvscode-ssh远程连接服务器font&#34;&gt;#&lt;/a&gt; &lt;font color=#39C5BB&gt;Vscode-SSH 远程连接服务器&lt;/font&gt;&lt;/h1&gt;
+&lt;h2 id=&#34;vscode-下载与安装&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#vscode-下载与安装&#34;&gt;#&lt;/a&gt; Vscode 下载与安装&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;进入&lt;ins&gt; Vscode 官网&lt;/ins&gt;：&lt;font size = 5&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9jb2RlLnZpc3VhbHN0dWRpby5jb20v&#34;&gt;Vscode (点击跳转 Vscode 官网)&lt;/span&gt;&lt;/font&gt;—— 点击&lt;ins&gt; Download for windows&lt;/ins&gt; 即可下载&lt;/li&gt;
+&lt;li&gt;选择你要安装的位置，安装选项均默认即可&lt;/li&gt;
+&lt;li&gt;安装完毕后打开&lt;ins&gt; Vscode&lt;/ins&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;vscode插件安装&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#vscode插件安装&#34;&gt;#&lt;/a&gt; Vscode 插件安装&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;ins class=&#34;primary&#34;&gt;第一次打开 Vscode 会自动弹出安装中文 (简体) 语言包扩展，如果未弹出，在左侧扩展 —— 搜索栏输入&lt;mark&gt; Chinese&lt;/mark&gt;—— 进入搜索结果第一个点击安装即可&lt;/ins&gt;&lt;/li&gt;
+&lt;li&gt;在扩展搜索栏输入&lt;mark&gt; Remote SSH&lt;/mark&gt; 进行安装&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;ssh插件设置&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#ssh插件设置&#34;&gt;#&lt;/a&gt; SSH 插件设置&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;ins class=&#34;primary&#34;&gt;安装完毕后在 Vscode 左侧点击&lt;mark&gt;远程资源管理器&lt;/mark&gt; —— 在 SSH Targets 点击&lt;mark&gt;加号 +&lt;/mark&gt; —— 输入&lt;font color=#6495ED&gt;ssh root@你的服务器公网 IP&lt;/font&gt;&lt;/ins&gt;&lt;/li&gt;
+&lt;li&gt;++ 输入成功后会弹出&lt;mark&gt; Select SSH configuration file to update&lt;/mark&gt;，选第一个选项即可&lt;/li&gt;
+&lt;li class=&#34;primary&#34;&gt;选择完毕后右下角弹出&lt;mark&gt; Host added&lt;/mark&gt;，选择&lt;mark&gt; connect&lt;/mark&gt; 连接 ++&lt;/li&gt;
+&lt;li&gt;左侧&lt;mark&gt; SSH TARGETS&lt;/mark&gt; 中会出现你的公网 IP，点击&lt;mark&gt; Connect to Host in New Windows&lt;/mark&gt; (文件夹符号)，打开新窗口后选择 Linux&lt;/li&gt;
+&lt;li&gt;设置完毕后上方会弹出&lt;mark&gt; Enter your password&lt;/mark&gt;，输入前面设置的服务器密码后按回车即可远程连接到服务器&lt;/li&gt;
+&lt;li&gt;连接成功后会出现选择文件夹，这里选择&lt;mark&gt; home/admin/blog&lt;/mark&gt; 进入之前设置好的&lt;mark&gt; blog&lt;/mark&gt; 文件夹&lt;/li&gt;
+&lt;li&gt;最后进入左侧资源编辑器进行编辑即可&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;font-color39c5bbhexo主题的选择与安装font&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#font-color39c5bbhexo主题的选择与安装font&#34;&gt;#&lt;/a&gt; &lt;font color=#39C5BB&gt;Hexo 主题的选择与安装&lt;/font&gt;&lt;/h1&gt;
+&lt;h2 id=&#34;安装git&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#安装git&#34;&gt;#&lt;/a&gt; 安装 Git&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;在&lt;ins&gt; Vscode&lt;/ins&gt; (blog 文件夹下) 终端输入&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;span&gt;命令提示符&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;sudo&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;apt-get&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;install&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;git&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h2 id=&#34;主题选择&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#主题选择&#34;&gt;#&lt;/a&gt; 主题选择&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;进入&lt;ins&gt; Hexo 官网&lt;/ins&gt;：&lt;font size = 5&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL3poLWNuLw==&#34;&gt;Hexo (点击跳转 Hexo 中文官网)&lt;/span&gt;&lt;/font&gt;—— 点击上方&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL3RoZW1lcy8=&#34;&gt;主题&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;选择一款自己喜欢的且可以进入页面的主题&lt;/li&gt;
+&lt;li&gt;这里博主用的主题名字是&lt;mark&gt; Shoka&lt;/mark&gt;，下面操作以该主题为例&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;主题安装&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#主题安装&#34;&gt;#&lt;/a&gt; 主题安装&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;在选择的主题网站中找到主题安装相关的文章&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;tab&#34; data-id=&#34;id1&#34; data-title=&#34;卡片 1&#34;&gt;
+&lt;p&gt;&lt;strong&gt;Shoka 主题作者戳下方&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;霜月琉璃&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;span class=&#34;exturl image&#34; data-url=&#34;aHR0cHM6Ly9zaG9rYS5sb3N0eXUubWU=&#34; data-background-image=&#34;https://cdn.jsdelivr.net/gh/amehime/shoka@latest/images/avatar.jpg&#34;&gt;&lt;/span&gt;
+          &lt;div class=&#34;info&#34;&gt;
+          &lt;span class=&#34;exturl title&#34; data-url=&#34;aHR0cHM6Ly9zaG9rYS5sb3N0eXUubWU=&#34;&gt;優萌初華&lt;/span&gt;
+          &lt;p class=&#34;desc&#34;&gt;琉璃的医学 &amp; 编程笔记&lt;/p&gt;
+          &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;details class=&#34;primary&#34;&gt;&lt;summary&gt;QVQ&lt;/summary&gt;&lt;div&gt;
+&lt;ul&gt;
+&lt;li&gt;如遇主题安装和调试过程中的问题请在这篇文章下方留言，博主看到了都会一一回复&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;h1 id=&#34;font-color39c5bb将hexo部署到githubfont&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#font-color39c5bb将hexo部署到githubfont&#34;&gt;#&lt;/a&gt; &lt;font color=#39C5BB&gt;将 Hexo 部署到 GitHub&lt;/font&gt;&lt;/h1&gt;
  ]]></description>
         </item>
         <item>
             <guid isPermalink="true">http://example.com/2021/11/20/%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA/</guid>
             <title>初体验</title>
             <link>http://example.com/2021/11/20/%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA/</link>
+            <category>博客创建</category>
             <pubDate>Sat, 20 Nov 2021 10:06:38 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;font-color39c5bbnana7miの个人博客font&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#font-color39c5bbnana7miの个人博客font&#34;&gt;#&lt;/a&gt; &lt;font color=#39C5BB&gt;Nana7mi の个人博客&lt;/font&gt;&lt;/h1&gt;
 &lt;p&gt;&lt;strong&gt;这里是&lt;/strong&gt;&lt;font color=#FFC0CB size=5&gt;&lt;em&gt;&lt;strong&gt;Nana7mi&lt;/strong&gt;&lt;/em&gt;&lt;/font&gt;&lt;font size=3&gt;(&lt;/font&gt;&lt;font color=#002FA7 size=2&gt;&lt;s&gt;&lt;em&gt;&lt;strong&gt;蒋佳航&lt;/strong&gt;&lt;/em&gt;&lt;/s&gt;&lt;/font&gt;&lt;font size=3&gt;)&lt;/font&gt;&lt;strong&gt;的个人博客&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;font size = 3&gt; BiliBili :  &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9zcGFjZS5iaWxpYmlsaS5jb20vMzg1MTg3MDg=&#34;&gt;哔哩哔哩&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;
 &lt;p&gt;&lt;font size = 3&gt;2021//11/21，Nana7mi 的个人博客初次创建&lt;/font&gt;&lt;/p&gt;
+&lt;p&gt;谢谢大佬们捧场 QVQ&lt;/p&gt;
  ]]></description>
         </item>
     </channel>
